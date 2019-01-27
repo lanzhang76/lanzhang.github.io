@@ -108,6 +108,10 @@ img{
     line-height: 1.3em;
   }
 
+  p {
+    line-height: 1.5em;
+  }
+
 
   .header{
     /* position: fixed; */
