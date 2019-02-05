@@ -11,7 +11,7 @@ ul, li {
     margin: 0;
     padding: 0;
     list-style: none;
-    line-height: 0.8em;
+    line-height: 1.2em;
 }
 
 a:hover{
@@ -27,6 +27,10 @@ a{
 }
 
 img{
+  width: 100%;
+}
+
+video{
   width: 100%;
 }
 
@@ -54,6 +58,10 @@ img{
 
   h3{
     font-size: 1em;
+  }
+
+  h4{
+    font-size: 0.95em;
   }
 
   p{
@@ -91,7 +99,19 @@ img{
         margin-bottom: 2em;
   }
 
+  .img_vertical{
+    display: inline-block;
+    width: 30%;
+  }
+  .img_horizontal{
+    display: inline-block;
+    width: 65%;
+  }
 
+  .GIFs img{
+    margin-right: 1em;
+    width: 46%;
+  }
 }
 
 @media (max-width:920px) {
@@ -106,6 +126,10 @@ img{
     font-family: 'Roboto Mono',sans-serif;
     text-align: left;
     line-height: 1.3em;
+  }
+
+  h4{
+    font-size: 0.95em;
   }
 
   p {
