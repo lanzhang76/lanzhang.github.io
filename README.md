@@ -1,4 +1,2 @@
-# lanzhang.github.io
-
-## class portfolio website 
-MFADT at Parsons School of Design
+## class portfolio website
+MFA Design and Technology Candidate at Parsons School of Design
