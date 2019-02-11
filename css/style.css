@@ -32,13 +32,27 @@ img{
   width: 100%;
 }
 
-video{
-  width: 100%;
+.videoFrame {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+
 }
 
-iframe{
+.videoFrame iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 100%;
 }
+/* iframe{
+  width: 100%;
+} */
 
 button{
   background-color: white;
@@ -68,6 +82,8 @@ button:hover {
 {
   font-size: 0.7em;
 }
+
+
 
 @media (min-width:920px) {
   body{
