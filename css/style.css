@@ -38,6 +38,35 @@ iframe{
   width: 100%;
 }
 
+button{
+  background-color: white;
+  color: black;
+  font-size:0.7em;
+  padding: 6px 20px;
+  border: 0.1em solid #e7e7e7;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+.button{
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.code {
+  display: none;
+  font-size: 0.6em;
+
+  padding-bottom: 1em;
+}
+
+.references
+{
+  font-size: 0.7em;
+}
+
 @media (min-width:920px) {
   body{
     /* margin: 0;
@@ -115,6 +144,11 @@ iframe{
   .GIFs img{
     margin-right: 1em;
     width: 46%;
+  }
+
+  .GIFs-Small img{
+    margin-right: 1em;
+    width: 30%;
   }
 }
 
