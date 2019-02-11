@@ -199,6 +199,7 @@ button:hover {
     .wrapper{
       display: grid;
       margin:1em;
+      margin-right: 1em;
       margin-top: 0;
       grid-gap: 10px;
     	grid-template-columns: 	1fr;
