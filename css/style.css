@@ -28,6 +28,10 @@ a{
   text-decoration: none;
 }
 
+p{
+  margin-bottom: 1em;
+}
+
 img{
   width: 100%;
 }
@@ -118,6 +122,14 @@ button:hover {
   p{
     font-size: 0.9em;
     margin-bottom: 0.5em;
+  }
+
+  .space100{
+    height: 100px;
+  }
+
+  .space50{
+    height: 50px;
   }
 
   .header{
