@@ -36,6 +36,21 @@ img{
   width: 100%;
 }
 
+table {
+  width: 100%;
+  text-align:center;
+  padding: 1.5em;
+  font-size: 1em;
+}
+
+table th{
+  font-size:0.8em;
+}
+
+table td{
+  font-size:1em;
+}
+
 .videoFrame {
   position: relative;
   padding-bottom: 56.25%;
@@ -130,6 +145,10 @@ button:hover {
 
   .space50{
     height: 50px;
+  }
+
+  .space20{
+    height: 20px;
   }
 
   .header{
