@@ -141,8 +141,8 @@ function mousePressed(){
 function drawOthers(){
   stroke(0);
   image(sunriseImg,31, 29, 487, 249);
-  image(logo, 30, 220 - offset, logo.width / 5, logo.height / 5);
-  image(greet, 20 + offset *2, 20,greet.width/5,greet.height/5);
+  image(logo, 30, 190 - offset, logo.width / 5, logo.height / 5);
+  image(greet, 5 + offset *2, 10,greet.width/5,greet.height/5);
   fill(0);
   textFont("Montserrat");
   text("Friends: " + nameDOM, 30, 300);
