@@ -1,0 +1,111 @@
+.section{
+  padding:0.5em;
+  position: relative;
+  text-align: center;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+input{
+  font-family: 'Montserrat', sans-serif;
+  width:15em;
+  height: 2em;
+  padding: 1em;
+}
+
+button{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.output {
+  padding:0.2em;
+}
+
+.sentence1{
+  display: inline-block;
+}
+
+.sentence2{
+  display: inline-block;
+}
+
+
+#sketch-holder{
+  position: relative;
+  z-index: -1;
+}
+
+.textTop{
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+}
+
+@media (min-width:920px) {
+  .wrapper{
+    display: grid;
+    margin-right: 2em;
+    grid-gap: 10px;
+  	grid-template-columns:3fr 4fr 3fr;
+    grid-template-rows:auto;
+  }
+
+  #logoDiv img{
+    width: 80%;
+  }
+
+  #inputDiv button{
+    width: 8em;
+    height: 4em;
+    margin:0.4em;
+    background-color: black;
+    color: white;
+  }
+
+  #make button{
+    width: 15em;
+    height: 5em;
+    margin:0.4em;
+    line-height:1.3em;
+    background-color: black;
+    color: white;
+  }
+}
+
+/* .part2 {
+    display: none;
+} */
+
+
+
+@media (max-width:920px) {
+  .wrapper{
+      display: grid;
+      margin:1em;
+      margin-top: 0;
+      grid-gap: 10px;
+    	grid-template-columns: 1fr;
+    }
+
+    #logoDiv img{
+      width: 100%;
+    }
+
+    #inputDiv button{
+      width: 7em;
+      height: 4em;
+      margin:0.4em;
+      background-color: black;
+      color: white;
+    }
+
+    #make button{
+      width: 15em;
+      height: 4em;
+      margin:0.4em;
+      background-color: black;
+      color: white;
+    }
+}
