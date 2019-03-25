@@ -105,7 +105,7 @@ function preload() {
   logo = loadImage('assets/logo-03.png');
   greet = loadImage('assets/logo-04.png');
   sunriseImg = loadImage('assets/dog.jpg');
-  music = loadSound("Heaven.mp3");
+  music = loadSound("assets/Heaven.mp3");
 }
 
 function setup() {
