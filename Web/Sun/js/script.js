@@ -105,14 +105,14 @@ function preload() {
   logo = loadImage('assets/logo-03.png');
   greet = loadImage('assets/logo-04.png');
   sunriseImg = loadImage('assets/dog.jpg');
-  music = loadSound("assets/Heaven.mp3");
+  music = loadSound('assets/Heaven.mp3');
 }
 
 function setup() {
   canvas = createCanvas(550, 360);
   canvas.parent("sketch-holder");
   textFont(font);
-
+  music.setVolume(0.5);
 
 
   button = createButton('Lets Make a Card for our Special Moment');
