@@ -1,4 +1,5 @@
 
+document.body.style.background = "url('assets/burst-01.png') no-repeat left top";
 let buttonDom = document.getElementById("submit");
 buttonDom.addEventListener("click",getUserData);
 
@@ -97,12 +98,14 @@ var canvas;
 var other = false;
 var offset;
 let font;
+let music;
 
 function preload() {
   font = loadFont('assets/Montserrat-Regular.otf');
   logo = loadImage('assets/logo-03.png');
   greet = loadImage('assets/logo-04.png');
   sunriseImg = loadImage('assets/dog.jpg');
+  music = loadSound("Heaven.mp3");
 }
 
 function setup() {
@@ -135,6 +138,12 @@ function mousePressed(){
     val = 255;
     other = true;
     console.log("draw Text");
+    if (music.isPlaying()) {
+      music.stop();
+    } else {
+      music.play();
+    }
+
   }
 }
 
