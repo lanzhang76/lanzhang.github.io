@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Final Project Research22</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700"
+      rel="stylesheet"
+    />
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="DIS.js"></script>
+  </head>
+
+  <body>
+    <div class="header">
+      <a href="../indexDI.html">
+        <h1>
+          INTERACTION DESIGN <br />IN THE WILD
+          <br />
+          2019 Spring
+        </h1>
+      </a>
+      <h2>
+        Lan Zhang
+        <br />
+        MFADT
+      </h2>
+    </div>
+
+    <div class="footer">
+      <a href="../index.html">/</a>
+    </div>
+
+    <div class="wrapper">
+      <div class="item" id="empty"></div>
+      <div class="item">
+        <div class="section" id="section1">
+          <h3>Week 15</h3>
+
+          <h3>Final Project Update 3</h3>
+
+          <p>
+            Big Idea: to further iterate Lemur Buddy in terms of its
+            functionality and practical goal based on the feedback from the
+            keepers at San Diego Zoo and Duke Lemur Center; Work towards testing
+            it with real RTL.
+          </p>
+          <p>Animal: Ring-tailed Lemur</p>
+          <div class="GIFs" style="width:40%;">
+            <img src="../image/lemur_final/Avatar.png" alt="" />
+          </div>
+          <H4>Previous Iteration:</H4>
+          <ul>
+            <li>
+              <a href="DISafaris/s11_finalResearch.html"
+                ><p>Ring-tailed Lemur Allo-grooming Device part1</p></a
+              >
+            </li>
+            <li>
+              <a href="DISafaris/s12_finalResearch.html"
+                ><p>Ring-tailed Lemur Allo-grooming Device part2</p></a
+              >
+            </li>
+          </ul>
+          <h3>Experts Feedback</h3>
+          <h4>
+            Question 1: whether ring-tailed lemur would interaction with the
+            device or not:
+          </h4>
+          <p>
+            <span>San Diego Zoo RTL caretakers:</span>
+            Unlike most non-human primates, lemurs have a reputation of being
+            apprehensive to approach and interact with novel objects. However, I
+            have seen many instances where it just takes time. We installed belt
+            feeders with our RTL at the Safari Park and it took 2 weeks for them
+            to receive the food reward and another 2 weeks until they were
+            dismantling it. I believe
+            <mark>the RTL would be curious about your proto-type</mark>
+            but might take some patience on our end to see an interaction.
+            <br /><br />
+            <span>Duke Lemur Center Technicians:</span> Yes, we all agree that
+            the
+            <mark>RTL are intelligent enough to interact with the device.</mark>
+            The question is, will they? As you are developing this for satellite
+            males, interacting with the device could, potentially, catch the eye
+            of the females and set the males up to be targeted.
+          </p>
+          <p>
+            <span>Conclusion:</span>Yes, Ring-tailed Lemurs would interact with
+            this device.
+          </p>
+
+          <h4>
+            Question2: Do Ring-tailed lemurs use other objects to groom
+            themselves?
+          </h4>
+          <p>
+            <span>San Diego Zoo RTL caretakers:</span>
+            RTL that live in social groups spend much time grooming each other
+            but
+            <mark>will also use branches, poles and platforms to rub on.</mark>
+
+            <br /><br />
+            <span>Duke Lemur Center Technicians:</span> The techs
+            <mark>do not see </mark>the animals using other devices (branches,
+            tree trunks) for grooming. They say that if allogrooming is not
+            occurring, then those areas that they can’t self groom get a bit
+            ragged.
+          </p>
+          <p>
+            <span>Conclusion:</span>Ring-tailed lemurs at the center do not use
+            other devices to groom while the ones at the San Diego Zoo tend to
+            use branches, poles and platforms to rub on. That implies it’s
+            possible for the lemurs to try to groom themselves with the right
+            affordance.
+          </p>
+
+          <h4>
+            Question3: Is the device beneficial to the lone male Ring-tailed
+            lemurs? Do you see potential for its usability?
+          </h4>
+          <p>
+            <span>San Diego Zoo RTL caretakers:</span>
+            We often have primates that are singly housed for various medical or
+            management issues. I think this device could be used for species
+            other than RTL that are <mark>socially isolated.</mark>
+
+            <br /><br />
+            <span>Duke Lemur Center Technicians:</span> There may be other
+            species that would interact with it more, but those are not
+            necessarily animals that are “socially left out”. It perhaps would
+            be best for <mark>solitary animals?</mark> Occasionally animals need
+            to be pulled for medical reasons with the goal of getting them back
+            to the troop/partner asap.
+          </p>
+          <p>
+            <span>Conclusion:</span>Both sites provide me feedback that’s in
+            regards to using this all-grooming device for primates that are
+            isolated for medical or management reasons. I guess it’s a common
+            case for the zoo/center to separate a lemur or other animals that
+            are temporarily pulled out from its original social group. Both
+            feedbacks provided a good insight into considering this as a social
+            compensation device that could be utilized, either within the
+            individually housed context or a transition period for one going
+            back to its original large group.
+          </p>
+
+          <h4>
+            Question4: Suggested materials and affordance?
+          </h4>
+          <p>
+            <span>San Diego Zoo RTL caretakers:</span>
+            We generally look for materials that are not easy to destroy or
+            ingest such as hard plastic. In addition, using materials that can
+            be cleaned is essential. Safety considerations often vary by species
+            and by individual animal. If there are wires and other components
+            involved it is necessary that they are secured in a way that animals
+            do not have access to them.
+
+            <br /><br />
+            <span>Duke Lemur Center Technicians:</span> In regards to attracting
+            the lemurs, a variety of scents could be used – garlic is one that
+            is commonly used. However, if it attracts the males it will also
+            attract the female.
+          </p>
+          <h4>Overall Conclusion:</h4>
+
+          <ul>
+            <li>
+              <p>
+                1. In terms of creating affordance with the lone male
+                ring-tailed lemurs, it can be speculated that if one is put in
+                close context with the device, they will be smart and curious
+                enough to use it. If not, rubbing garlic or their own body odor
+                will be the attractor. If it’s placed in a context where one is
+                separated from the social group, then it shouldn’t be a worry
+                that it will also attract female lemurs.
+              </p>
+              <br />
+            </li>
+            <li>
+              <p>
+                2. The materials I will use and iterate with will focus on the
+                durability and safety qualities. I will use mainly silicone for
+                the body as it’s durable, rubbery, food-safe, waterproof and
+                easy to clean. The main rubber massage part will be rubbery
+                plastic that’s utilized by pet store, which will also be safe
+                when being exposed to the Ring-tailed lemurs. The electronic
+                part and wires will be sealed safely.
+              </p>
+              <br />
+            </li>
+            <li>
+              <p>
+                3. The Allo-grooming device
+                <mark
+                  >can be seen as a social interaction compensation by
+                  caretakers from both sites</mark
+                >, which met the original goal of creating such a device.
+                However, the extent of whether or not it’s exclusively suitable
+                for male Ring-tailed lemurs is not assured. Both consider this
+                as something that should be used for other primates that are
+                socially left out as well, which is a good sign as it represents
+                a common need across many primates that live in a social
+                culture.
+              </p>
+              <br />
+            </li>
+          </ul>
+          <hr />
+          <p>
+            As I’d like to ensure that the allo-grooming device could not only
+            work for socially left-out primates but also truly for the lone male
+            RTL, I dived deeper into how the RTL social structure and their
+            grooming as a displayed social behavior. From my research, the RTLs
+            in a captivated behavior displayed an issue a real “market” need
+            that such a device can find its useful position for.
+          </p>
+          <p>
+            In the paper “ Grooming and touching behaviour in captive
+            ring-tailed lemurs”, I found a valuable observation that closely
+            watched and compared the dynamic within the social troop in relation
+            to their grooming social behavior as social hierarchy(represented in
+            their sleeping order).
+          </p>
+          <div style="width:55%">
+            <img src="../image/lemur_final/lemur_stat.png" alt="" />
+          </div>
+
+          <p>
+            This chart shows that age and gender responds to social hierarchy
+            within the troop in a captivated environment. F1 is not only the
+            oldest but also a female RTL. She always gets to sleep first and
+            gets most touching from other RTLemurs. F2 is younger but because
+            she is female, she is comparatively the same as the older and the
+            leading male lemur. Meanwhile M4 who is probably the youngest but
+            also a male Ring-tailed lemur who initiates most touching and came
+            last in the sleeping order. This proves that there could really be a
+            case where a young, male ring-tailed lemur is socially ranked-low to
+            a point that he is not receiving much touching from other RTlemurs.
+            “Our results indicate that in this group grooming occurs primarily
+            between the older and (according to sleep order) higher ranking
+            animals. This is consistent with what has been observed in other
+            primate species (see, for example, SEYFART8, 1980). Touching,
+            however, is primarily done by younger animals to older animals, and
+            by subordinates to dominants.” In the research, they also concluded
+            that “"reach out and touch" contact is a submissive gesture in the
+            ring-tailed lemur.”
+            <br />That made me wonder if male lemurs would just groom each there
+            so even the lower-ranking lemurs can enjoy grooming as a social
+            behavior? Typically the answer is no because "Affiliation, tolerance
+            and cooperation should occur less frequently among males than among
+            females, since male repro ductive success is tied to inter-male
+            competition over access to receptive female”. However, “social
+            friendly activities such as allogrooming, huddling, and sitting and
+            resting in”seem to be something observed among males too. But since
+            male RTL and male RTL are less likely to offer “touch” and
+            receive”grooming” to each other because of their mutually exclusive
+            social goals, it gave me a better idea that male RT lemurs M3 and
+            M4(especially) are my targets who’d be in a suitable social position
+            for an allogrooming device: They are socially low-ranked; They do
+            not receive any grooming offering; They wouldn’t groom each other.
+          </p>
+
+          <h4>Thus physical making iteration:</h4>
+
+          Some important feedback I got from the last round of iteration is:
+          <li>
+            <p>
+              1. It’s good to take off the rollers as it’s simpler without
+              losing a purpose.
+            </p>
+          </li>
+          <li>
+            <p>
+              2. The device looks too much like a backpack, the shape needs to
+              be totally making sense for exclusively RTL
+            </p>
+          </li>
+          <li><p>3. The beans will make noise</p></li>
+          <li>
+            <p>
+              4. Too much fur, integrate parts into one main material: use
+              silicone
+            </p>
+          </li>
+
+          <p>
+            sketch:
+          </p>
+          <img src="../image/lemur_final/final_diagramB-01.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
