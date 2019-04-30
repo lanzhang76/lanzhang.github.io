@@ -1,224 +1,349 @@
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <title>Enrichment II</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700"
+      rel="stylesheet"
+    />
     <script src="../js/jquery-3.3.1.min.js"></script>
     <script src="DIS.js"></script>
   </head>
 
   <body>
+    <div class="header">
+      <a href="../indexDI.html">
+        <h1>INTERACTION DESIGN <br />IN THE WILD</h1>
+      </a>
+      <h2>2019 Spring</h2>
 
-      <div class="header">
-        <a href="../indexDI.html">
-        <h1>
-          DESIGN IN SAFARIS
-          <br>
-          2019 Spring
-        </h1>
-        </a>
-        <h2>
-          Lan Zhang
-        <br>
-          MFADT
+      <h2>
+        Lan Zhang
+        <br />
+        MFADT
+      </h2>
+    </div>
 
-        </h2>
-      </div>
+    <div class="footer">
+      <a href="../index.html">/</a>
+    </div>
 
-      <div class="footer">
-        <a href="../index.html">/</a>
-      </div>
+    <div class="wrapper">
+      <div class="item" id="empty"></div>
+      <div class="item">
+        <div class="section" id="section1">
+          <h3>Week 4-5</h3>
 
+          <h3>Enrichment Prototype for Ring-tailed Lemurs</h3>
 
-      <div class="wrapper">
-        <div class="item" id="empty">
-        </div>
-        <div class="item">
-          <div class="section" id="section1">
-            <h3>Week 4-5</h3>
-
-            <h3>Enrichment Prototype for Ring-tailed Lemurs</h3>
-
-            <p>
-              Big Idea:
-              To create an enrichment intervention– a ground-based foraging extraction platform that challenges Ring-tailed lemurs to work for harvesting food through digging and probing, ultimately promoting their natural behaviors and improving welfare in a zoo setting.
-            </p>
-            <p>User: a Ring-tailed Lemur
-              <div class="GIFs" style="width:40%;">
-                <img src="../image/Lemur/lemur2.png" alt="">
-              </div>
-            </p>
-
-            <p><h4>Initial development goals:</h4>
-
-                 1. Highlight the relation of behaviors to affordances in each of the proposals
-                  <br>2. Invite the lemurs to interact with it
-                  <br>3. Look for new behaviors rather than just sticking to the feeding mechanism
-                  <br>4. Make the enrichment intervention challengingly and pleasantly engaged
-                <br>5. Optimize the building structure and find durable materials for easier zoo maintenance
-                  <br>6. Back up every behavior, steps of interaction with research and potential speculation
-
-            </p>
-            <br><img src="../image/Lemur/grid.png" alt="">
-            <p>While I’m exploring the answers to these questions, I started to do more research on specific behaviors and habits of Ring-tailed lemur, which will hopefully give me new insights into developing the affordances of any of my proposal. I found a report written by Tracy Fenn, the supervisor of mammals at Jacksonville Zoo, called “Behavior-based husbandry for lemurs.” He listed key points that further pinpoints the importance of creating based on species’ natural history and individual needs and creating responsive to objective evidence of welfare. It reminded me that my intervention will need to be durable, flexible in formats, and fits Lemurs’ natural behaviors.
-            </p>
-
-            <div class="img_vertical">
-              <img src="../image/Lemur/daySpent.png" alt="">
-            </div>
-            <div class="img_vertical">
-              <img src="../image/Lemur/activity.png" alt="">
-            </div>
-            <h4>Insight: Ring-tailed lemurs spend a lot of time on the ground, which is unusual among lemur species.</h4>
-            <img src="../image/Lemur/toy_example.jpg" alt="">
-            <p>many food probing toys found(not just Ring-tailed lemurs)are hung. It'd be unique to have something that follows their natural behavior.</p>
-
-            <h4>Initial Sketch for the box structure:</h4>
-            <img src="../image/Lemur/lemur1.gif" alt="">
-
-
-            <p>I encountered a paper called “Lemur Use of Hands Versus Mouth” that presented how most Ring-tailed lemurs are left-handed. Meanwhile, when foraging and feeding, Ring-tailed lemurs tend to use a single hand rather than both hands. How the was measured was through determining “If a hand was used to bring food or some other object to the mouth, the specific hand utilized was recorded”.
-
-            </p>
-              <div class="img_horizontal">
-                <img src="../image/Lemur/hand.png" alt="">
-              </div>
-              <p>
-              That means when interacting with the box, potentially Ring-tailed lemurs will probe and grab the food with one hand to deliver to the mouth. That means gauging the opening gaps doesn’t need to consider fitting both hands of a lemur as long as the gap fits one, and potentially their other hand will be simultaneously used to pull the string or dig into other gaps for food.
-            </p>
-
-            <p>
-              More questions for developing the prototype for the "Ground foraging grid box":
-              <br>1. What materials should I use for durability and safety?
-              <br>2. How to make it more challenging and engaging for lemurs to interact with?
-              <br>3. Will lemurs compete and incite fights with each other through food probing?
-              <br>4. What if one claim territory over the box?
-              <br>5. Can this box only exist on the ground/underground? Can it change form and replacement?
-              <br>6. How to make it hard to break or to hack for the lemurs while easy for the zookeeper to maintain and update?
-              <br>7. What are some of the specific locations within the captivated environment can this intervention be placed?
-            </p>
-
-            <h4>In-Ground Foraging Grid box – Further development: </h4>
-            <p>
-              <h5>Affordance:</h5>
-                     * They spend a great deal of time on the ground, the opening grid should be placed near where they like to gather when introducing for the first time
-                  <br>     * The fruit/nuts/leaves will be visible through the opening grid from the ground level, so the box will catch lemurs’ attention
-                  <br>     * the opening space in-between the string grid varies in sizes, some are much bigger than their hand size, so they should be able to get some food without really digging
-                  <br>     * Some fruit will be placed at a more shallow level, so it’s easy to grab for the first-time user
-              <h5>Challenge and Engagement:</h5>
-                       * Since lemurs would like to work to get their food, the grid opening will vary in sizes based on how the string/rope is weaved. At the beginning of introducing the box, the gap can be wide then slowly it can become tighter(weave tighter)
-                  <br>     * In order to create a bit more of the challenge while maintaining the modular attribute, different heights of a wooden block can be inserted in the box to create a different level of the surface. Or on the hand, can make the food closer to the surface level for an easier reach.
-              <h5>Flexibility</h5>
-                     * The box will be modular in forms of additional platform-riser inserts, adjustable string grid
-                  <br>     * the lid can be detached easily from the bottom for the box cleaning and food refilling
-                  <br>     * the box can be hung on a vertical surface when needed, so it doesn’t have to always be placed underground
-              <h5>Parts and Materials</h5>
-                       * Bottom boxwood
-                  <br>    * Top lid - wooden frame, wooden pegs and strings(TBD, considering jute or nylon or polyethylene)
-                  <br>    * wooden block inserts
-                  <br>    * Ideally, the wall wood would be abled to module into different depth
-            </p>
-
-            <p>
-              <h5>Making in the process:</h5>
-              I decided to stick with wood for the current  as it’s natural and very easy to be made into modular iterations in the future. For this prototype, I focused on addressing the modularity of the grid and the box depth.
-            </p>
-
-            <img src="../image/Lemur/collage_0.jpg" alt="">
-            <div class="space20">
-            </div>
-            <img src="../image/Lemur/collage_2.jpg" alt="">
-            <p>The modularity of the grid is achieved by removable wooden dowels, which would allow the grid to be mapped in different(tight or loose) ways for easier or more difficult lemur-hand navigation.
-            </p>
-
-            <!-- video below -->
-            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/319918086?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-
-
-            <img src="../image/Lemur/collage_1.jpg" alt="">
-            <p>The material of the rope is jute, which is natural and not too tight.</p>
-            <img src="../image/Lemur/collage_4.jpg" alt="">
-
-
-            <p>Meanwhile, the modularity of the box depth is achieved by different sizes/heights of wooden blocks inserts, so food cane placed at different level heights while being placed in the box, giving Ring-tailed lemurs levels of challenge of foraging.</p>
-            <img src="../image/Lemur/box_assemble.gif" alt="">
-
-            <p>Ideally, the box body itself will be sliced into modular frames as well, so we can have the options of having a deeper bottom by stacking up more wall modules or the other way around.
-            </p>
-            <img src="../image/Lemur/lemur_forage_in-situ.gif" alt="">
-
-
-            <h4>Body-storming</h4>
-            <img src="../image/Lemur/lemur_in-situ.jpg" alt="">
-            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/319916345?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-
-
-            <h4>Body-storming Feedback and Future Iteration:</h4>
-            <p>
-
-              * The furnishing like pure tung oil or mineral oil can be coated inside and outside the box, so the box can be water-resistant, easy for cleaning and safe for food placement.
-            <br>  * The jute can come out easily if the hand nudges slightly too much. Lemurs wouldn’t be given instructions, so they could easily pull out the jute as well. So, maybe we can use elastic food ties to anchor the jute on each dowel.
-            <br>  * For my “human lemur”, he gave up reaching the food at the bottom once he realized he couldn’t easily reach the deepest level, so making the wall into modules that can stack up can create different depth of the box. We can even lowly introduce the foraging play grid to lemurs starting from a very shallow box.
-            <br>  * If this box can’t exist underground/in-ground due to zoo environmental restriction, the box can be adjusted to a very shallow depth to be put above ground. Moreover, by installing an anchor to the side wall, such a box can also be hung onto a tree, so the foraging digging can happen vertically as well.
-
-            </p>
-
-
-
-
-
-
-
-
-
-
-            <div class="space100">
-            </div>
-            <hr>
-            <h4>Potential prototype 2:</h4>
-            <p>
-              While I’m in the process of prototyping the box, I generated some new insights for the sunbathing project. (sketch below)
-  My original idea is to create a rotatory outdoor platform that allows multiple lemurs to sunbath whenever they want. However, I realized such a platform might not be as necessary in an outdoor/always sunny environment like San Diego zoo, as they can easily move to a sunny spot, However, in many other zoos like Bronx zoo, lemurs are kept indoors during the winter season. Sunning behavior is important for lemurs' thermoregulatory function, which is also the best example of lemur species-specific behavior. In Taylor Shire’s paper” Differences in behavior between captive and wild ring-tailed lemur populations: Implications for reintroduction and captive management, she mentioned: “ Indoor enclosures are temperature controlled using centralized heating or heat lamps. In this situation, sunning no longer serves a thermoregulatory function and therefore we would expect that 1) lemurs in captivity will spend less time sunning than wild lemurs and 2) lemurs housed in indoor enclosure will spend less time sunning than those housed outdoors.
-  <br><br>
-  So it really depends on when and where were these ring-tailed lemurs raised. If it has always been indoors, the opportunity for an outdoor sunbathing spot might not be efficient. Mean while, Shire also mentioned in her paper that “ the absence of this
-  behavior may indicate that the lemurs have no exposure to natural stimuli and may not engage in other species-specific behaviors.” That means it’s significant to an extent for ring-tailed lemur to be able to perform this behavior, if we can imitate a natural stimuli. Lemurs are usually found in social group. In a captivated setting, social groups are usually “artificially managed”(Shire, 2012) due to transferring among institutions, so lemurs could actually encounter more frequent agnostic behaviors. So ideally and speculatively, if Ring-tailed lemurs are in an indoor setting or under terrible weathers, if an artificial sunlight can be introduced and a familiar figure can be introduced to start the sunbathing, potentially others would follow and even re-adapt it.  The artificial sunlight will imitate not only the color temperature but also the thermal temperature of the sun, and the lemur decoy can be marked with a female scent(female-dominant social group) that other lemurs feel very familiar to.
-  </p>
-
-            <h4>the Sunbathing lemur decoy:</h4>
-            <img src="../image/Lemur/lemur2.gif" alt="">
-
-
-            <div class="space100">
-
-            </div>
-
-              <div class="section item references">
-                <h4>References</h4>
-                  <p>
-                    1. Fenn, Tracey. BEHAVIOR- BASED HUSBANDRY FOR LEMURS. Supervisor of Mammals, Jacksonville Zoo and GardensFounder & President, Endangered Primate Foundation (Prosimian Sanctuary)
-                    <br>2. Hosey, G. R. (2005). How does the zoo environment affect the behaviour of captive primates? Applied Animal Behaviour Science, 90(2), 107–129.doi:10.1016/j.applanim.2004.08.015
-                    <br>3. Inglis, I. ., Forkman, B., & Lazarus, J. (1997). Free food or earned food? A review and fuzzy model of contrafreeloading. Animal Behaviour, 53(6), 1171–1191.doi:10.1006/anbe.1996.0320
-                    <br>4. Kelley, E. A., Jablonski, N. G., Chaplin, G., Sussman, R. W., & Kamilar, J. M. (2016). Behavioral thermoregulation inLemur catta: The significance of sunning and huddling behaviors. American Journal of Primatology, 78(7), 745–754.doi:10.1002/ajp.22538
-                    <br>5. Kulahci, I. G., Drea, C. M., Rubenstein, D. I., & Ghazanfar, A. A. (2014). Individual recognition through olfactory-auditory matching in lemurs. Proceedings of the Royal Society B: Biological Sciences, 281(1784), 20140071–20140071.doi:10.1098/rspb.2014.0071
-                    <br>6. Schoeck, C. N., & Edds, D. R. (2018). Lemur Use of Hands Versus Mouth. Transactions of the Kansas Academy of Science, 121(1-2), 49–58.doi:10.1660/062.121.0205
-                    <br>7. Shire, Taylor, "Differences in behavior between captive and wild ring-tailed lemur (Lemur catta) populations: Implications for reintroduction and captive management" (2012). Graduate Theses and Dissertations. 12459.  https://lib.dr.iastate.edu/etd/12459
-
-                  </p>
-
-
-
-
+          <p>
+            Big Idea: To create an enrichment intervention– a ground-based
+            foraging extraction platform that challenges Ring-tailed lemurs to
+            work for harvesting food through digging and probing, ultimately
+            promoting their natural behaviors and improving welfare in a zoo
+            setting.
+          </p>
+          <p>User: a Ring-tailed Lemur</p>
+          <div class="GIFs" style="width:40%;">
+            <img src="../image/Lemur/lemur2.png" alt="" />
           </div>
 
+          <h4>Initial development goals:</h4>
 
+          <p>
+            1. Highlight the relation of behaviors to affordances in each of the
+            proposals <br />2. Invite the lemurs to interact with it <br />3.
+            Look for new behaviors rather than just sticking to the feeding
+            mechanism <br />4. Make the enrichment intervention challengingly
+            and pleasantly engaged <br />5. Optimize the building structure and
+            find durable materials for easier zoo maintenance <br />6. Back up
+            every behavior, steps of interaction with research and potential
+            speculation
+          </p>
+          <br /><img src="../image/Lemur/grid.png" alt="" />
+          <p>
+            While I’m exploring the answers to these questions, I started to do
+            more research on specific behaviors and habits of Ring-tailed lemur,
+            which will hopefully give me new insights into developing the
+            affordances of any of my proposal. I found a report written by Tracy
+            Fenn, the supervisor of mammals at Jacksonville Zoo, called
+            “Behavior-based husbandry for lemurs.” He listed key points that
+            further pinpoints the importance of creating based on species’
+            natural history and individual needs and creating responsive to
+            objective evidence of welfare. It reminded me that my intervention
+            will need to be durable, flexible in formats, and fits Lemurs’
+            natural behaviors.
+          </p>
 
+          <div class="img_vertical">
+            <img src="../image/Lemur/daySpent.png" alt="" />
+          </div>
+          <div class="img_vertical">
+            <img src="../image/Lemur/activity.png" alt="" />
+          </div>
+          <h4>
+            Insight: Ring-tailed lemurs spend a lot of time on the ground, which
+            is unusual among lemur species.
+          </h4>
+          <img src="../image/Lemur/toy_example.jpg" alt="" />
+          <p>
+            many food probing toys found(not just Ring-tailed lemurs)are hung.
+            It'd be unique to have something that follows their natural
+            behavior.
+          </p>
+
+          <h4>Initial Sketch for the box structure:</h4>
+          <img src="../image/Lemur/lemur1.gif" alt="" />
+
+          <p>
+            I encountered a paper called “Lemur Use of Hands Versus Mouth” that
+            presented how most Ring-tailed lemurs are left-handed. Meanwhile,
+            when foraging and feeding, Ring-tailed lemurs tend to use a single
+            hand rather than both hands. How the was measured was through
+            determining “If a hand was used to bring food or some other object
+            to the mouth, the specific hand utilized was recorded”.
+          </p>
+          <div class="img_horizontal">
+            <img src="../image/Lemur/hand.png" alt="" />
+          </div>
+          <p>
+            That means when interacting with the box, potentially Ring-tailed
+            lemurs will probe and grab the food with one hand to deliver to the
+            mouth. That means gauging the opening gaps doesn’t need to consider
+            fitting both hands of a lemur as long as the gap fits one, and
+            potentially their other hand will be simultaneously used to pull the
+            string or dig into other gaps for food.
+          </p>
+
+          <p>
+            More questions for developing the prototype for the "Ground foraging
+            grid box":
+            <br />1. What materials should I use for durability and safety?
+            <br />2. How to make it more challenging and engaging for lemurs to
+            interact with? <br />3. Will lemurs compete and incite fights with
+            each other through food probing? <br />4. What if one claim
+            territory over the box? <br />5. Can this box only exist on the
+            ground/underground? Can it change form and replacement? <br />6. How
+            to make it hard to break or to hack for the lemurs while easy for
+            the zookeeper to maintain and update? <br />7. What are some of the
+            specific locations within the captivated environment can this
+            intervention be placed?
+          </p>
+
+          <h4>In-Ground Foraging Grid box – Further development:</h4>
+          <p></p>
+          <h5>Affordance:</h5>
+          * They spend a great deal of time on the ground, the opening grid
+          should be placed near where they like to gather when introducing for
+          the first time
+          <br />
+          * The fruit/nuts/leaves will be visible through the opening grid from
+          the ground level, so the box will catch lemurs’ attention <br />
+          * the opening space in-between the string grid varies in sizes, some
+          are much bigger than their hand size, so they should be able to get
+          some food without really digging <br />
+          * Some fruit will be placed at a more shallow level, so it’s easy to
+          grab for the first-time user
+          <h5>Challenge and Engagement:</h5>
+          * Since lemurs would like to work to get their food, the grid opening
+          will vary in sizes based on how the string/rope is weaved. At the
+          beginning of introducing the box, the gap can be wide then slowly it
+          can become tighter(weave tighter)
+          <br />
+          * In order to create a bit more of the challenge while maintaining the
+          modular attribute, different heights of a wooden block can be inserted
+          in the box to create a different level of the surface. Or on the hand,
+          can make the food closer to the surface level for an easier reach.
+          <h5>Flexibility</h5>
+          * The box will be modular in forms of additional platform-riser
+          inserts, adjustable string grid
+          <br />
+          * the lid can be detached easily from the bottom for the box cleaning
+          and food refilling <br />
+          * the box can be hung on a vertical surface when needed, so it doesn’t
+          have to always be placed underground
+          <h5>Parts and Materials</h5>
+          * Bottom boxwood
+          <br />
+          * Top lid - wooden frame, wooden pegs and strings(TBD, considering
+          jute or nylon or polyethylene) <br />
+          * wooden block inserts <br />
+          * Ideally, the wall wood would be abled to module into different depth
+
+          <h5>Making in the process:</h5>
+          <p>
+            I decided to stick with wood for the current as it’s natural and
+            very easy to be made into modular iterations in the future. For this
+            prototype, I focused on addressing the modularity of the grid and
+            the box depth.
+          </p>
+
+          <img src="../image/Lemur/collage_0.jpg" alt="" />
+          <div class="space20"></div>
+          <img src="../image/Lemur/collage_2.jpg" alt="" />
+          <p>
+            The modularity of the grid is achieved by removable wooden dowels,
+            which would allow the grid to be mapped in different(tight or loose)
+            ways for easier or more difficult lemur-hand navigation.
+          </p>
+
+          <!-- video below -->
+          <div style="padding:75% 0 0 0;position:relative;">
+            <iframe
+              src="https://player.vimeo.com/video/319918086?title=0&byline=0&portrait=0"
+              style="position:absolute;top:0;left:0;width:100%;height:100%;"
+              frameborder="0"
+              webkitallowfullscreen
+              mozallowfullscreen
+              allowfullscreen
+            ></iframe>
+          </div>
+          <script src="https://player.vimeo.com/api/player.js"></script>
+
+          <img src="../image/Lemur/collage_1.jpg" alt="" />
+          <p>
+            The material of the rope is jute, which is natural and not too
+            tight.
+          </p>
+          <img src="../image/Lemur/collage_4.jpg" alt="" />
+
+          <p>
+            Meanwhile, the modularity of the box depth is achieved by different
+            sizes/heights of wooden blocks inserts, so food cane placed at
+            different level heights while being placed in the box, giving
+            Ring-tailed lemurs levels of challenge of foraging.
+          </p>
+          <img src="../image/Lemur/box_assemble.gif" alt="" />
+
+          <p>
+            Ideally, the box body itself will be sliced into modular frames as
+            well, so we can have the options of having a deeper bottom by
+            stacking up more wall modules or the other way around.
+          </p>
+          <img src="../image/Lemur/lemur_forage_in-situ.gif" alt="" />
+
+          <h4>Body-storming</h4>
+          <img src="../image/Lemur/lemur_in-situ.jpg" alt="" />
+          <div style="padding:56.25% 0 0 0;position:relative;">
+            <iframe
+              src="https://player.vimeo.com/video/319916345?title=0&byline=0&portrait=0"
+              style="position:absolute;top:0;left:0;width:100%;height:100%;"
+              frameborder="0"
+              webkitallowfullscreen
+              mozallowfullscreen
+              allowfullscreen
+            ></iframe>
+          </div>
+          <script src="https://player.vimeo.com/api/player.js"></script>
+
+          <h4>Body-storming Feedback and Future Iteration:</h4>
+          <p>
+            * The furnishing like pure tung oil or mineral oil can be coated
+            inside and outside the box, so the box can be water-resistant, easy
+            for cleaning and safe for food placement.
+            <br />
+            * The jute can come out easily if the hand nudges slightly too much.
+            Lemurs wouldn’t be given instructions, so they could easily pull out
+            the jute as well. So, maybe we can use elastic food ties to anchor
+            the jute on each dowel. <br />
+            * For my “human lemur”, he gave up reaching the food at the bottom
+            once he realized he couldn’t easily reach the deepest level, so
+            making the wall into modules that can stack up can create different
+            depth of the box. We can even lowly introduce the foraging play grid
+            to lemurs starting from a very shallow box. <br />
+            * If this box can’t exist underground/in-ground due to zoo
+            environmental restriction, the box can be adjusted to a very shallow
+            depth to be put above ground. Moreover, by installing an anchor to
+            the side wall, such a box can also be hung onto a tree, so the
+            foraging digging can happen vertically as well.
+          </p>
+
+          <div class="space100"></div>
+          <hr />
+          <h4>Potential prototype 2:</h4>
+          <p>
+            While I’m in the process of prototyping the box, I generated some
+            new insights for the sunbathing project. (sketch below) My original
+            idea is to create a rotatory outdoor platform that allows multiple
+            lemurs to sunbath whenever they want. However, I realized such a
+            platform might not be as necessary in an outdoor/always sunny
+            environment like San Diego zoo, as they can easily move to a sunny
+            spot, However, in many other zoos like Bronx zoo, lemurs are kept
+            indoors during the winter season. Sunning behavior is important for
+            lemurs' thermoregulatory function, which is also the best example of
+            lemur species-specific behavior. In Taylor Shire’s paper”
+            Differences in behavior between captive and wild ring-tailed lemur
+            populations: Implications for reintroduction and captive management,
+            she mentioned: “ Indoor enclosures are temperature controlled using
+            centralized heating or heat lamps. In this situation, sunning no
+            longer serves a thermoregulatory function and therefore we would
+            expect that 1) lemurs in captivity will spend less time sunning than
+            wild lemurs and 2) lemurs housed in indoor enclosure will spend less
+            time sunning than those housed outdoors.
+            <br /><br />
+            So it really depends on when and where were these ring-tailed lemurs
+            raised. If it has always been indoors, the opportunity for an
+            outdoor sunbathing spot might not be efficient. Mean while, Shire
+            also mentioned in her paper that “ the absence of this behavior may
+            indicate that the lemurs have no exposure to natural stimuli and may
+            not engage in other species-specific behaviors.” That means it’s
+            significant to an extent for ring-tailed lemur to be able to perform
+            this behavior, if we can imitate a natural stimuli. Lemurs are
+            usually found in social group. In a captivated setting, social
+            groups are usually “artificially managed”(Shire, 2012) due to
+            transferring among institutions, so lemurs could actually encounter
+            more frequent agnostic behaviors. So ideally and speculatively, if
+            Ring-tailed lemurs are in an indoor setting or under terrible
+            weathers, if an artificial sunlight can be introduced and a familiar
+            figure can be introduced to start the sunbathing, potentially others
+            would follow and even re-adapt it. The artificial sunlight will
+            imitate not only the color temperature but also the thermal
+            temperature of the sun, and the lemur decoy can be marked with a
+            female scent(female-dominant social group) that other lemurs feel
+            very familiar to.
+          </p>
+
+          <h4>the Sunbathing lemur decoy:</h4>
+          <img src="../image/Lemur/lemur2.gif" alt="" />
+
+          <div class="space100"></div>
+
+          <div class="section item references">
+            <h4>References</h4>
+            <p>
+              1. Fenn, Tracey. BEHAVIOR- BASED HUSBANDRY FOR LEMURS. Supervisor
+              of Mammals, Jacksonville Zoo and GardensFounder & President,
+              Endangered Primate Foundation (Prosimian Sanctuary)
+              <br />2. Hosey, G. R. (2005). How does the zoo environment affect
+              the behaviour of captive primates? Applied Animal Behaviour
+              Science, 90(2), 107–129.doi:10.1016/j.applanim.2004.08.015
+              <br />3. Inglis, I. ., Forkman, B., & Lazarus, J. (1997). Free
+              food or earned food? A review and fuzzy model of
+              contrafreeloading. Animal Behaviour, 53(6),
+              1171–1191.doi:10.1006/anbe.1996.0320 <br />4. Kelley, E. A.,
+              Jablonski, N. G., Chaplin, G., Sussman, R. W., & Kamilar, J. M.
+              (2016). Behavioral thermoregulation inLemur catta: The
+              significance of sunning and huddling behaviors. American Journal
+              of Primatology, 78(7), 745–754.doi:10.1002/ajp.22538 <br />5.
+              Kulahci, I. G., Drea, C. M., Rubenstein, D. I., & Ghazanfar, A. A.
+              (2014). Individual recognition through olfactory-auditory matching
+              in lemurs. Proceedings of the Royal Society B: Biological
+              Sciences, 281(1784), 20140071–20140071.doi:10.1098/rspb.2014.0071
+              <br />6. Schoeck, C. N., & Edds, D. R. (2018). Lemur Use of Hands
+              Versus Mouth. Transactions of the Kansas Academy of Science,
+              121(1-2), 49–58.doi:10.1660/062.121.0205 <br />7. Shire, Taylor,
+              "Differences in behavior between captive and wild ring-tailed
+              lemur (Lemur catta) populations: Implications for reintroduction
+              and captive management" (2012). Graduate Theses and Dissertations.
+              12459. https://lib.dr.iastate.edu/etd/12459
+            </p>
+          </div>
         </div>
       </div>
-
-
+    </div>
+    >
   </body>
 </html>
